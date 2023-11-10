@@ -7,6 +7,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 import styles from "@/components/Projects/Projects.module.css"
+import Image from 'next/image';
 
 export default function Projects({ images, links }) {
     if (!images || !Array.isArray(images) || images.length === 0) {

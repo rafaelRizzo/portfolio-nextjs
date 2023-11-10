@@ -35,3 +35,13 @@
     cursor: pointer;
     bottom: 20px;
 }
+
+@media (max-width: 768px) {
+    .container_main .container_title h1 {
+        font-size: 5rem;
+    }
+
+    .container_main h2 {
+        font-size: 1.5rem;
+    }
+}
