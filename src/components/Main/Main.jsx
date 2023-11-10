@@ -24,8 +24,8 @@ export default function Main(props) {
 
     return (
         <>
-            <section className={`${styles.container_main} text-center flex flex-col items-center justify-center`}>
-                <div className={`${styles.container_title} font-bold text-9xl items-center justify-center text-center flex gap-5`}>
+            <section className={`${styles.container_main} text-center`}>
+                <div className={`${styles.container_title} font-bold text-9xl items-center justify-center text-center flex`}>
                     <h1>Rafael</h1>
                     <h1>Rizzo</h1>
                 </div>
