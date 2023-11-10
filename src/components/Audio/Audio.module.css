@@ -1,0 +1,31 @@
+.container_audio {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    font-size: 1.8rem;
+    cursor: pointer;
+    z-index: 99999;
+}
+
+.container_audio::after {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, .15);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -5px;
+    left: -6px;
+    border-radius: 50%;
+    opacity: 0;
+    scale: 0%;
+    transition: all .25s ease;
+    z-index: -9;
+}
+
+.container_audio:hover::after {
+    opacity: 1;
+    scale: 120%;
+}

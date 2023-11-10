@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --text: #F7F7F7;
+    --black: #000;
+    --gold: #FFC000;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    background: rgba(73, 115, 241, 0.5);
+}
+
+::selection {
+    background: rgba(73, 115, 241, 0.5);
+}
+
+body {
+    color: var(--text);
+    background-color: var(--black);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    padding: 20px;
+}
+
+body::after {
+    content: "";
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: .375rem;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    z-index: -1;
+}

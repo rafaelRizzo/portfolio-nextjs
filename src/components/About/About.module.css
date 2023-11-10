@@ -1,0 +1,17 @@
+.container_about h3 {
+    font-size: 3rem;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+.container_about p {
+    text-align: justify;
+    line-height: 2rem;
+    font-size: 1.15rem;
+    padding: 0 15px 15px 15px;
+    margin: 50px 0;
+}
+
+.container_about p span{
+    color: var(--gold);
+}

@@ -1,0 +1,11 @@
+.atual {
+    background-color: transparent;
+    animation: pulse .75s infinite alternate ease;
+}
+
+@keyframes pulse {
+    100% {
+        background-color: #66BB6A;
+    }
+
+}
