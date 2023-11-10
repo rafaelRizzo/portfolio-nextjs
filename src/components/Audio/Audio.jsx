@@ -6,7 +6,9 @@ import styles from "@/components/Audio/Audio.module.css";
 const AudioPlayer = ({ tracks, onPlayChange, audioRefProp }) => {
     const [isPlaying, setIsPlaying] = useState(false);
     const [isComponentMounted, setIsComponentMounted] = useState(false);
-    const audioRef = audioRefProp || useRef(null);
+
+    // Mover a chamada do useRef para fora do escopo condicional
+    const audioRef = useRef(null);
     const currentTrackIndex = useRef(0);
 
     const startPlayback = () => {
