@@ -9,7 +9,6 @@
 
 .container_main .container_title {
     display: flex;
-    flex-direction: column;
 }
 
 .container_main h1:last-child {
@@ -33,6 +32,11 @@
 }
 
 @media (max-width: 768px) {
+
+    .container_main .container_title {
+        flex-direction: column;
+    }
+
     .container_main .container_title h1 {
         font-size: 5rem;
     }
