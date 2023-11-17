@@ -18,7 +18,7 @@ export default function Contact() {
                     <a href="https://www.instagram.com/rafael_breschi/" target='_blank'>
                         <IconButton variant="outlined"><PiInstagramLogoFill /></IconButton>
                     </a>
-                    <a href="mailto:contato@rafael-rizzo.com" target='_blank'>
+                    <a href="mailto:contatorafaelrizzodev@gmail.com" target='_blank'>
                         <IconButton variant="outlined"><BiLogoGmail /></IconButton>
                     </a>
                 </div>
