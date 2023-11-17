@@ -29,7 +29,7 @@ const links = [
     'https://landing-nike.rafael-rizzo.com',
     'https://caravan.rafael-rizzo.com',
     'https://clima.rafael-rizzo.com',
-    'https://sorvete.rafael-rizzo.com',
+    'https://sorveteria.rafael-rizzo.com',
 
 ];
 
