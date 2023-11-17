@@ -37,7 +37,7 @@ export default function Projects({ images, links }) {
                     {images.map((image, index) => (
                         <a key={index} href={links[index]} target='_blank'>
                             <div key={index}>
-                                <img src={image} alt={`slide-${index}`} />
+                                <Image src={image} alt={`slide-${index}`} width={1000} height={400} />
                             </div>
                         </a>
                     ))}
