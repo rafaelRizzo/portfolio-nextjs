@@ -19,7 +19,7 @@ const links = [
     'https://loopstudios.rafael-rizzo.com',
     'https://reports.rafael-rizzo.com',
     'https://clone-google.rafael-rizzo.com',
-    'https://landingpage-chihiro.netlify.app',
+    'https://landing-chihiro.rafael-rizzo.com',
 ];
 
 export default function Home() {
