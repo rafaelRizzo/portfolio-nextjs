@@ -24,7 +24,7 @@ export default function TimelineComponent() {
                     <div>
                         <p><b>Phonevox</b></p>
                         <p><b>Analista e desenvolvedor de sistemas</b></p>
-                        <p>Out. 2023 ~ Atualmente</p>
+                        <p>Jan. 2023 ~ Atualmente</p>
                     </div>
                 </TimelineContent>
             </TimelineItem>
