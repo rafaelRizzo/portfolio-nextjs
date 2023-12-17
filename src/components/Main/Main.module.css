@@ -33,7 +33,7 @@
 
 @media (max-width: 768px) {
     .container_main {
-        min-height: 100dvh;
+        min-height: calc(100dvh - 40px);
     }
 
     .container_main .container_title {
