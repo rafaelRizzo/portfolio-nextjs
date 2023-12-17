@@ -32,6 +32,9 @@
 }
 
 @media (max-width: 768px) {
+    .container_main {
+        min-height: 100dvh;
+    }
 
     .container_main .container_title {
         flex-direction: column;
