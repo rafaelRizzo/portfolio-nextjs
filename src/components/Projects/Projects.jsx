@@ -35,7 +35,7 @@ export default function Projects({ images, links }) {
             <div className={styles.container_carousel}>
                 <Slider {...settings}>
                     {images.map((image, index) => (
-                        <a key={index} href={links[index]} target='_blank'>
+                        <a key={index} href={links[index]} target={index !== links.length - 1 ? '_blank' : '_self'}>
                             <div key={index}>
                                 <Image src={image} alt={`slide-${index}`} width={1000} height={400} />
                             </div>

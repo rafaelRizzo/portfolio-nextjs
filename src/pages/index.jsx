@@ -17,6 +17,7 @@ const images = [
     '/images/project-caravan.jpg',
     '/images/project-clima.jpg',
     '/images/project-sorvete.jpg',
+    '/images/project-help-sync.jpg',
 ];
 
 const links = [
@@ -30,6 +31,7 @@ const links = [
     'https://caravan.rafael-rizzo.com',
     'https://clima.rafael-rizzo.com',
     'https://sorveteria.rafael-rizzo.com',
+    '/empresarial',
 
 ];
 
